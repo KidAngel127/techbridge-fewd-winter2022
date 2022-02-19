@@ -13,8 +13,8 @@ body{
     justify-content: center;
 }
 .container{
-    margin: 0;
     display: flex;
+    justify-content: center;
 }
 li, a, button{
     font-family: sans-serif;
@@ -59,7 +59,7 @@ button:hover{
 .card{
     display: grid;
     grid-template-columns: 300px;
-    grid-template-rows: 250px 10px 80px;
+    grid-template-rows: 250px 10px 90px;
     /* grid-template-areas: "image" "text" "stats" ; */
     font-family: sans-serif;
     border-radius: 18px;
@@ -67,29 +67,47 @@ button:hover{
     box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
     text-align: center;
     margin: 10px;
-    
+}
+.card-img-top{
+    max-width: 90%;
+    padding: 10px;
+    position: relative;
+    left: 10px; 
+}
+.card-body{
+    position: relative;
+    margin-top:  -75px;
+    text-align: center;
+}
+.card-button{
+    margin-top: 10px;
+}
+#card3 .card-img-top{
+    height:160px;
+}
+#card2 .card-button{
+    margin-top: 28px;
+}
+#card3 .card-button{
+    margin-top: 27px;
 }
 .card-image{
-    grid-area: image;
+    /* grid-area: image; */
 }
 .card-text{
-    grid-area: text;
+    /* grid-area: text; */
 }
 .card-stats{
-    grid-area: stats;
+    /* grid-area: stats; */
 }
 #card1{
-    justify-content: center;
+    /* justify-content: center;
     align-items: center;
-    position: static;
+    position: static; */
 }
 #card2{
   
 }
 #card3{
 
-}
-.card-img-top{
-    max-width: 50%;
-    position: absolute;
 }
