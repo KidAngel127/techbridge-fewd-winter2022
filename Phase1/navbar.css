@@ -91,23 +91,23 @@ button:hover{
 #card3 .card-button{
     margin-top: 27px;
 }
-.card-image{
-    /* grid-area: image; */
+/* .card-image{
+    grid-area: image;
 }
 .card-text{
-    /* grid-area: text; */
+    grid-area: text;
 }
 .card-stats{
-    /* grid-area: stats; */
+    grid-area: stats;
 }
 #card1{
-    /* justify-content: center;
+    justify-content: center;
     align-items: center;
-    position: static; */
+    position: static;
 }
 #card2{
   
 }
 #card3{
 
-}
+} */
