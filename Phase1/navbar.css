@@ -96,6 +96,8 @@ button:hover{
     overflow: hidden;
     max-width: 600px;
     position: relative;
+    margin-left: 450px;
+    margin-top: 50px;
 }
 .carousel .carousel_item,
 .carousel .carousel_item--hidden{
@@ -115,10 +117,18 @@ button:hover{
     justify-content: space-between;
     position: absolute;
     top: 50%;
+    transform: translateY(-50%);
 }
 .carousel .carousel_actions button#carousel_button--prev{
     margin-left: 20px;
 }
 .carousel .carousel_actions button#carousel_button--next{
     margin-right: 20px;
+}
+
+
+/* Contact us CSS */
+.top_image{
+    justify-content: center;
+    justify-items: center;
 }
