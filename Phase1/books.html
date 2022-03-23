@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abous Us</title>
+    <title>Book Deals</title>
     <link rel="stylesheet" href="navbar.css"/>
 </head>
 <body>
     <header>
-        
         <nav>
             <ul class="nav__links">
                 <li><a href="index.html">Home</a></li>
@@ -17,14 +16,28 @@
                 <li><a href="contactUs.html">Contact Us</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="aboutUs.html">About Us</a></li>
-             
             </ul>
         </nav>
         <a class="cta" href="login.html"><button>Login</button></a>
     </header>
-    <P>I am a aspiring Software Engineer/ Game Developer studying C++, Javascript, and hopefully many other programming languages. I love videogames!!! Its my favorite passtime besides reading or hanging out with love ones.</P>
     
-    
+    <div class="carousel">
+        <div class="carousel_item carousel_item--visible">
+            <img src="behelit.jpeg" alt="">
+        </div>
+        <div class="carousel_item">
+            <img src="deathnote.jpeg" alt="">
+        </div>
+        <div class="carousel_item">
+            <img src="mindflayer.jpeg" alt="">
+        </div>
 
+        <div class="carousel_actions">
+            <button id="carousel_button--prev" aria-label="Previous Slide"><</button>
+            <button id="carousel_button--next">></button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 </html>

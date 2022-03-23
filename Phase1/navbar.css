@@ -9,10 +9,8 @@ body{
     background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)), url(logopic.jpeg);
     background-size: cover;
     background-position: center;
-    align-items: center;
-    justify-content: center;
 }
-.container{
+.container{ 
     display: flex;
     justify-content: center;
 }
@@ -60,7 +58,6 @@ button:hover{
     display: grid;
     grid-template-columns: 300px;
     grid-template-rows: 250px 10px 90px;
-    /* grid-template-areas: "image" "text" "stats" ; */
     font-family: sans-serif;
     border-radius: 18px;
     background: white;
@@ -91,23 +88,37 @@ button:hover{
 #card3 .card-button{
     margin-top: 27px;
 }
-/* .card-image{
-    grid-area: image;
-}
-.card-text{
-    grid-area: text;
-}
-.card-stats{
-    grid-area: stats;
-}
-#card1{
-    justify-content: center;
-    align-items: center;
-    position: static;
-}
-#card2{
-  
-}
-#card3{
 
-} */
+
+
+/* carousel css */
+.carousel{
+    overflow: hidden;
+    max-width: 600px;
+    position: relative;
+}
+.carousel .carousel_item,
+.carousel .carousel_item--hidden{
+    display: none;
+}
+.carousel .carousel_item img{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+.carousel .carousel_item--visible{
+    display: block;
+}
+.carousel .carousel_actions{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+}
+.carousel .carousel_actions button#carousel_button--prev{
+    margin-left: 20px;
+}
+.carousel .carousel_actions button#carousel_button--next{
+    margin-right: 20px;
+}
