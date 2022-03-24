@@ -127,8 +127,40 @@ button:hover{
 }
 
 
-/* Contact us CSS */
+/* Services CSS */
 .top_image{
     justify-content: center;
     justify-items: center;
+}
+.texas{
+    margin-left: 20px;
+    width: 45%;
+    border-radius: 10px;
+}
+.text_Texas{
+    background: white;
+    width: 99%;
+}
+.pimpc{
+    width: 20%;
+    margin-left: 40%;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+
+
+/* contact us Css */
+#contactForm{
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    gap: 1rem;
+}
+#contactCon{
+    display: grid;
+}
+
+/* about us Css */
+#usText{
+    background: white;
 }

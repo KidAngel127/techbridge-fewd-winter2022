@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 <body>
     <header>
@@ -20,8 +21,35 @@
         </nav>
         <a class="cta" href="login.html"><button>Login</button></a>
     </header>
-    <div class="top_image">
-        <img src="Texas.jpeg" alt="">
+    
+    <div class="container" id="contactCon">
+        <h1 class="contactForm">Contact Form</h1>
+        <form id="contactForm">
+            <input type="text" name="Name" placeholder="Full Name" required>
+            <input type="email" name="Email" placeholder="Email" required>
+            <select name="notTexas">
+                <option>Not Texas</option>
+                <option>Not Texas</option>
+                <option>Not Texas</option>
+                <option>Texas</option>
+                <option>Not Texas</option>
+                <option>Not Texas</option>
+            </select>
+            <textarea name="Message" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
     </div>
+    
+    <footer>
+        <div class="footer-content">
+            <h3>Links</h3>
+            <p>Contact Information</p>
+            <ul>
+                <li><a href="https://github.com/KidAngel127" target="_blank" class="footer-links">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/david-cohen-20a702222/" class="footer-links">Linkedin</a></li>
+                
+            </ul>
+        </div>
+     </footer>    
 </body>
 </html>
